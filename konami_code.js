@@ -16,8 +16,7 @@ const bodyPress = document.getElementById('body');
 
 
 function init() {
-  // your code here
-  function onKeyDownHandler(e) {
+ function onKeyDownHandler(e) {
     const key = e.key;
     
     if (key === codes[index]) {
@@ -32,7 +31,7 @@ function init() {
     } else {
       index = 0;
     }
-  }
+ }
 }
 
 document.body.addEventListener('keydown',   function onKeyDownHandler(e) {
